@@ -2,9 +2,10 @@
 
 ## Part 1: Array Slicing and Indexing
 
-1. Given a 2D numpy array `X`, index to select the first 3 rows and the last 3 columns.
+1. Given a 2D numpy array `X`, write the syntax used to select the first 3 rows and the last 3 columns of `X`.
 
-1. Given a 1D numpy array `x`, return only the odd-indexed entries, or return every other entry. (There is more than one solution!)
+1. Given a 1D numpy array `x`, write the syntax used to return only the odd-indexed entries (return every other entry) of `x`.
+   There is more than one solution!
 
 1.  Given an integer numpy array of 0's and 1's, write a function that creates a new array where 0's are replaced with the word `"red"` and 1's are replaced with the word `"blue"`.
 
@@ -33,7 +34,7 @@
                [10,  9,  6,  6,  0,  2],
                [ 1,  7,  2,  9,  7,  0]])
     ```
-1. Given two equal length arrays, `x` with some general numeric data, and `b` an array of booleans, write a function that computes the sum of the data in `x` at the same positions where `b` is True, and the sum of the values in `x` at the positions where `b` is false.
+1. Given two equal length arrays, `x` with some general numeric data, and `b` an array of booleans, write a function that computes the sum of the data in `x` at the same positions where `b` is True, and the sum of the values in `x` at the positions where `b` is False.
 
     ```python
     x = np.array([0,    1,    2,     3,    4,     5])
@@ -86,7 +87,8 @@ Start with array `a = np.arange(10)`.
       [-1.5, -0.5,  0.5,  1.5]])
    ```
 
-1. Given an array and a number, find the index of the number in the array that is closest to the number. (Hint: check out the functions that start with  functions!)
+1. Given an array and a number, find the index of the number in the array that is closest to the input number. 
+(Hint: check out the functions/methods that start with `arg`!)
 
     ```python
     x = np.random.randint(100, size=10)
@@ -105,10 +107,10 @@ Start with array `a = np.arange(10)`.
     ```
    Compute the element-wise: sum, difference, product, division, and modular division of `x` and `y`.
 
-1. Single digit broadcasting: continue using arrays `x` and `y`. 
+1. Single digit broadcasting: continue using array `y` defined above. 
    Compute the element-wise: sum, difference, product, division, and modular division of `y` and 2.
 
-1. Broadcasting conditionals: Continue using arrays `x` and `y`. Use conditional statements to get an elementwise boolean array for:
+1. Broadcasting conditionals: Continue using arrays `x` and `y` defined above. Use conditional statements to get an elementwise boolean array for:
     * elements of `y` that are greater than 5
     * elements of `x` that are divisible by 2 (hint: modular division by 2 leaves 0 remainder)
 
